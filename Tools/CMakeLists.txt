@@ -1,0 +1,8 @@
+IF ("${PORT}" STREQUAL "Efl")
+    IF (ENABLE_WEBKIT)
+        ADD_SUBDIRECTORY(DumpRenderTree/efl)
+        ADD_SUBDIRECTORY(EWebLauncher)
+    ENDIF ()
+ELSEIF ("${PORT}" STREQUAL "WinCE")
+    ADD_SUBDIRECTORY(WinCELauncher)
+ENDIF()

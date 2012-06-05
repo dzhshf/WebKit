@@ -1,4 +1,4 @@
 WebKit
 ======
 
-WebKit, forked from webkit.org, reversion r110279
+Forked form webkit.org, develop for iOS
